@@ -14,7 +14,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 
 load_dotenv()
 
-OPENAI_API_KEY= "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"
+OPENAI_API_KEY= ""
 PINECONE_API_KEY= "pcsk_6MNTdP_53FJ3DTSbrqLpEPDAQcx5LSKU8rwPv46aufVSQ6fiKBdAvoH26XeiUJPfEC9Q4Q"
 
 if not OPENAI_API_KEY or not PINECONE_API_KEY:
